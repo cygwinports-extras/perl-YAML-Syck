@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin perl
+sdesc: "Perl fast YAML loader"
+ldesc: "A fast, lightweight YAML loader and dumper module for Perl."
