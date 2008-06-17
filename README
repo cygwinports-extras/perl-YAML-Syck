@@ -3,13 +3,13 @@ perl-YAML-Syck
 A fast, lightweight YAML loader and dumper module for Perl.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  perl-5.10.0-3
+  cygwin-1.5.25-15
+  perl-5.10.0-4
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080523-1
+  cygport-0.3.11-1
   gcc-core-3.4.4-3
   make-3.81-1
 
@@ -22,15 +22,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-YAML-Syck-1.04-X-src.tar.bz2
+  unpack perl-YAML-Syck-1.05-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-YAML-Syck-1.04-X.cygport all
+  cygport ./perl-YAML-Syck-1.05-X.cygport all
 
 This will create:
-  /usr/src/perl-YAML-Syck-1.04-X-src.tar.bz2
-  /usr/src/perl-YAML-Syck-1.04-X.tar.bz2
+  /usr/src/perl-YAML-Syck-1.05-X-src.tar.bz2
+  /usr/src/perl-YAML-Syck-1.05-X.tar.bz2
 
 -------------------------------------------
 
@@ -42,15 +42,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/YAML/Syck.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/YAML/Syck/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/YAML/Syck/Syck.dll
-  /usr/share/doc/perl-YAML-Syck-1.04/COPYING
-  /usr/share/doc/perl-YAML-Syck-1.04/Changes
-  /usr/share/doc/perl-YAML-Syck-1.04/README
+  /usr/share/doc/perl-YAML-Syck-1.05/COPYING
+  /usr/share/doc/perl-YAML-Syck-1.05/Changes
+  /usr/share/doc/perl-YAML-Syck-1.05/README
   /usr/share/man/man3/JSON.Syck.3pm.gz
   /usr/share/man/man3/YAML.Syck.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.05-1 -----
+Version bump.
 
 ----- version 1.04-1 -----
 Version bump, built for perl-5.10.
