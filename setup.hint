@@ -1,4 +1,4 @@
 category: Perl
-requires: perl
+requires: libssp0 perl
 sdesc: "Perl fast YAML loader"
 ldesc: "A fast, lightweight YAML loader and dumper module for Perl."
