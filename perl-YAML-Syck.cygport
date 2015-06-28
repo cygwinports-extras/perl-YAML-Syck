@@ -2,7 +2,7 @@ CPAN_AUTHOR=toddr
 inherit perl
 
 NAME="perl-YAML-Syck"
-VERSION=1.27
+VERSION=1.29
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl fast YAML loader"
